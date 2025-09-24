@@ -17,6 +17,7 @@ class Line extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Box(value: v1, onTap: v1OnTap),
         Box(value: v2, onTap: v2OnTap),
